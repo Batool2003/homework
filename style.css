@@ -1,0 +1,166 @@
+*{
+   margin: 0; 
+   padding: 0;
+   
+}
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+  
+}
+
+header {
+    background-color: #f36565;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #5a1d15;
+    font-size: 35px;
+    padding: 10px;
+text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+  font-size: 20px;
+  width: 500;
+  text-align: right;
+}
+
+th {
+    background-color: #972c2c;
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid #3f2626;
+  
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+}
+li{
+  padding: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid #3f2626;
+    text-align: center;
+}
+.img1{
+  margin:10px 60px;
+  width: 20%;
+  height: 170px;
+}
+h2{
+  color: #d81b02;
+  font-size: 35px;
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f58c8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    
+    margin: 2% 46%;
+  
+  }
+  
+
+  on {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #972c2c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #972c2c;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    display: none;
+    
+    background-color:#fff5f5;
+    padding: 35px;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.success {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    display: none;
+}
